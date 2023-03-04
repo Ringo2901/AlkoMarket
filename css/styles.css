@@ -212,3 +212,53 @@ footer {
 	font-size: 18px;
 	font-family: 'Times New Roman', Times, serif;
   }
+
+
+  @media screen and (max-width: 768px) {
+	header {
+	  font-size: 32px;
+	}
+	.logo {
+	  font-size: 28px;
+	}
+	nav ul li a {
+	  font-size: 20px;
+	}
+	.main_BucketAndContacts {
+	  height: auto;
+	}
+	.containerProducts {
+	  padding: 20px;
+	}
+	.text {
+	  font-size: 24px;
+	}
+	.about_us,
+	.textcontainer {
+	  height: auto;
+	}
+	h1 {
+	  font-size: 24px;
+	}
+	.page_main_best {
+	  height: auto;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	header {
+	  font-size: 24px;
+	}
+	.logo {
+	  font-size: 20px;
+	}
+	nav ul li a {
+	  font-size: 16px;
+	}
+	.text {
+	  font-size: 20px;
+	}
+	h1 {
+	  font-size: 20px;
+	}
+  }
