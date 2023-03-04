@@ -55,6 +55,7 @@
 	background-position: center;
 	background-size: cover;
 	
+	
 }
 .main_BucketAndContacts{
 	background-image: url(../images/main1.jpg);
@@ -68,7 +69,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	max-width: 1000px;
 	margin: auto auto;
 	padding: 50px;
@@ -79,10 +80,13 @@
 
   .image {
 	flex: 1;
+	justify-content: center;
   }
   
   .image img {
 	display: block;
+	justify-content: center;
+	align-items: center;
 	max-width: 100%;
   }
   
@@ -90,7 +94,9 @@
 	color:#ffcebb;
 	font-size: 40;
 	flex: 1;
-	margin-left: 50px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
   }
   
 
@@ -156,30 +162,21 @@ textarea {
 	
 }
 .textcontainer {
-	background-color: rgba(53, 50, 50, 0.6);
-	background-size: cover;
-	padding: 20px; 
-	font-family: 'Garamond';
-    
-  }
-
-  .textcontainerforcontacts
-  {
     color:#ffcebb;
 	padding: 20px; 
 	font-family: 'Garamond';
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	max-width: 1000px;
 	margin: auto auto;
 	background-color: rgba(53, 50, 50, 0.6);
 	background-size: cover;
   }
+
   h1 {
 	font-size: 36px;
-	margin-top: 0;
 }
 
 .page_main_best {
